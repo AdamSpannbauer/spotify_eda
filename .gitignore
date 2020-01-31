@@ -1,5 +1,5 @@
 # ignore data until further analyzed to know whats private
-data
+data/*.json
 
 # pycharm files
 .idea
