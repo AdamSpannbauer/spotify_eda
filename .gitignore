@@ -1,3 +1,6 @@
+# ignore data until further analyzed to know whats private
+data
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
