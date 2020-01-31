@@ -1,6 +1,9 @@
 # ignore data until further analyzed to know whats private
 data
 
+# pycharm files
+.idea
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
