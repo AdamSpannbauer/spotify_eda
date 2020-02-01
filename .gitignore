@@ -1,3 +1,6 @@
+# api keys
+api_keys.json
+
 # ignore data until further analyzed to know whats private
 data/*.json
 
