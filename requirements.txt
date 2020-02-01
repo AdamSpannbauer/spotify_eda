@@ -3,3 +3,10 @@ numpy
 pandas
 matplotlib
 seaborn
+tqdm
+
+# Not a real version released
+# Hopefully the PR gets merged to fix path saving issues
+# See: https://github.com/johnwmillr/LyricsGenius/pull/131
+lyricsgenius>=1.8.3
+
