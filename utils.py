@@ -59,8 +59,14 @@ def get_genius_data(stream_hist_df, token, output='data/songs', playcount_min=5,
         if os.path.exists(file_name):
             continue
 
-        song = genius.search_song(row['trackName'], row['artistName'])
-        song.save_lyrics(file_name, sanitize=False, verbose=False)
+        try:
+            song = genius.search_song(row['trackName'], row['artistName'])
+        # noinspection PyBroadException
+        except:
+            continue
+
+        if song:
+            song.save_lyrics(file_name, sanitize=False, verbose=False)
 
 
 if __name__ == '__main__':
@@ -76,4 +82,5 @@ if __name__ == '__main__':
 
     get_genius_data(hist_df,
                     token=API_KEYS['genius']['token'],
-                    max_songs=20)
+                    # max_songs=20,
+                    )
