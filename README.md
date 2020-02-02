@@ -6,7 +6,7 @@ So far all, analysis has been done in [stream_history_eda.ipynb](stream_history_
 
 ## Highlights
 
-#### Pigeons Playing Ping Pong have long songs
+### Pigeons Playing Ping Pong have long songs
 
 The band Pigeons Playing Ping Pong appear in my top 3 most listened to artists by play time, but they don't appear in my top 10 by play count.
 
@@ -16,7 +16,7 @@ The band Pigeons Playing Ping Pong appear in my top 3 most listened to artists b
 
 
 
-#### My listening habits are driven by work, not pleasure
+### My listening habits are driven by work, not pleasure
 
 I listen to Spotify the most during the work times of day and on weekdays.  Saturday and Sunday have the least amount of plays, and my playtime falls off drastically after 4pm.
 
